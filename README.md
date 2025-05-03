@@ -1,7 +1,7 @@
 # API Automation & Testing using Rest Assured, TestNG and Postman Collection
 ## Description
-This project automates API testing of the Daily Finance platform using Rest Assured, TestNG. The framework is built using the Page Object Model **(POM)** architecture. It includes both positive and negative test cases for core features like user registration, login, item management, and user management.
-We will also cover the following features:  
+This project automates various API requests of https://dailyfinance.roadtocareer.net/ (Daily Finance platform) using Rest Assured, TestNG. The framework is built using the Page Object Model **(POM)** architecture. It includes both positive and negative test cases for core features like user registration, login, item management, and user management.
+We will also cover the following features: 
  - User Registration  
  - User Login (Admin & User)  
  - User List Retrieval  

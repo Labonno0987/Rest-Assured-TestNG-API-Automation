@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class Setup {
     public Properties prop;
-    @BeforeTest //testNG use hoise notation
+    @BeforeTest 
     public void setup() throws IOException {
         prop=new Properties();
         FileInputStream fs= new FileInputStream("./src/test/resources/config.properties");

@@ -51,7 +51,7 @@ public class UserController {
     }
 
     public Response userLogin(UserModel userModel) {
-        RestAssured.baseURI = prop.getProperty("baseURL");  //manually call
+        RestAssured.baseURI = prop.getProperty("baseURL"); 
         return given().contentType("application/json")
                 .body(userModel)
                 .when().post("/api/auth/login");
